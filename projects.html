@@ -5,53 +5,140 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Max Ohsawa</title>
-        <!-- CSS only -->
+        <!-- Bootstrap CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-        <!-- JavaScript Bundle with Popper -->
+        <!-- Bootstrap JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="styles.css">
+        <!-- Google fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+
+        <!-- Custom stylesheet -->
+        <link rel="stylesheet" href="styles.css">
     </head>
-<body>
-    <!-- Projects Jumbo -->
-    <div id="projects-jumbo" class="jumbo">
-    
-        <div class="jumbo-title-group">
-            <h3 id="projects-title-text" class="jumbo-title-text">Projects</h3>
+
+    <body>
+        
+        <div class="container container-jumbos">
+            
+            <div class="container navbar-div">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Max Ohsawa</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="./index.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="./projects.html" target="_blank">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://github.com/maxohsawa" target="_blank">Github</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.linkedin.com/in/max-ohsawa-8a70ba100/" target="_blank">LinkedIn</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="mailto:max.ohsawa@gmail.com" target="_blank">max.ohsawa@gmail.com</a>
+                            </li>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+
+
+
+            <!-- Pacman Jumbo -->
+            <div class="container jumbo jumbo-row row">
+
+                <div class="container jumbo-title-group col-4">
+                    <img class="jumbo-title-icon" src="./images/pacman-logo.png" alt="simple pacman image">
+                    <h3 class="jumbo-title-text">Pacmen</h3>
+                </div>
+
+                <div class="container jumbo-paragraph left-border col">
+                    <div class="profile-pic-div row">
+                        <img src="./images/pacmen-screenshot.png" alt="screenshot of pacmen project">
+                    </div>
+                    <div class="container row">
+                        <p>An exercise in manipulating the DOM and rendering an animation via JavaScript. Create a bunch of pacmen and watch them bounce around your browser window.</p>
+                    </div>
+                    <div class="container row">
+                        <p><a href="https://maxohsawa.github.io">Demo</a></p>
+                        <p><a href="https://maxohsawa.github.io">Repo</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Eyes Jumbo -->
+            <div class="container jumbo jumbo-row row">
+
+                <div class="container jumbo-title-group col-4">
+                    <img class="jumbo-title-icon" src="./images/pacman-logo.png" alt="simple pacman image">
+                    <h3 class="jumbo-title-text">Eyes</h3>
+                </div>
+
+                <div class="container jumbo-paragraph left-border col">
+                    <div class="profile-pic-div row">
+                        <img src="./images/pacmen-screenshot.png" alt="screenshot of pacmen project">
+                    </div>
+                    <div class="container row">
+                        <p>An exercise in manipulating the DOM and rendering an animation via JavaScript. Create a bunch of pacmen and watch them bounce around your browser window.</p>
+                    </div>
+                    <div class="container row">
+                        <p><a href="https://maxohsawa.github.io">Demo</a></p>
+                        <p><a href="https://maxohsawa.github.io">Repo</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bus Tracker Jumbo -->
+            <div class="container jumbo jumbo-row row">
+
+                <div class="container jumbo-title-group col-4">
+                    <img class="jumbo-title-icon" src="./images/pacman-logo.png" alt="simple pacman image">
+                    <h3 class="jumbo-title-text">Bus Tracker</h3>
+                </div>
+
+                <div class="container jumbo-paragraph left-border col">
+                    <div class="profile-pic-div row">
+                        <img src="./images/pacmen-screenshot.png" alt="screenshot of pacmen project">
+                    </div>
+                    <div class="container row">
+                        <p>An exercise in manipulating the DOM and rendering an animation via JavaScript. Create a bunch of pacmen and watch them bounce around your browser window.</p>
+                    </div>
+                    <div class="container row">
+                        <p><a href="https://maxohsawa.github.io">Demo</a></p>
+                        <p><a href="https://maxohsawa.github.io">Repo</a></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ballpit Jumbo -->
+            <div class="container jumbo jumbo-row row">
+
+                <div class="container jumbo-title-group col-4">
+                    <img class="jumbo-title-icon" src="./images/pacman-logo.png" alt="simple pacman image">
+                    <h3 class="jumbo-title-text">Ballpit</h3>
+                </div>
+
+                <div class="container jumbo-paragraph left-border col">
+                    <div class="profile-pic-div row">
+                        <img src="./images/pacmen-screenshot.png" alt="screenshot of pacmen project">
+                    </div>
+                    <div class="container row">
+                        <p>An exercise in manipulating the DOM and rendering an animation via JavaScript. Create a bunch of pacmen and watch them bounce around your browser window.</p>
+                    </div>
+                    <div class="container row">
+                        <p><a href="https://maxohsawa.github.io">Demo</a></p>
+                        <p><a href="https://maxohsawa.github.io">Repo</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="project-card-row">
-
-            <div class="card" style="width: 18rem;">
-                <img src="./images/project-placeholder-image.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="./images/project-placeholder-image.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-            <div class="card" style="width: 18rem;">
-                <img src="./images/project-placeholder-image.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</body>
+    </body>
 </html>
