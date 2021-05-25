@@ -2,7 +2,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     background-color: darkslategray;
     padding: 20px;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     display: flex;
     flex-direction: column;
 }
