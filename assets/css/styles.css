@@ -44,6 +44,18 @@ img {
   gap: 1.5rem;
 }
 
+.header {
+  width: 100%;
+  position: fixed;
+  bottom: 2rem;
+  left: 0;
+  z-index: 1;
+}
+
+.nav {
+  height: ;
+}
+
 @media screen and (min-width: 768px) {
   .nav a,
   .nav__menu,
