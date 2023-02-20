@@ -1,0 +1,22 @@
+{
+  "name": "maxohsawa.github.io",
+  "version": "1.0.0",
+  "description": "max ohsawa's portfolio site",
+  "scripts": {
+    "dev": "cd client && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxohsawa/maxohsawa.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maxohsawa/maxohsawa.github.io/issues"
+  },
+  "homepage": "https://github.com/maxohsawa/maxohsawa.github.io#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
