@@ -1,5 +1,11 @@
+import { Spinner } from '@chakra-ui/react';
+
 const Home = () => {
-  return <>Home</>;
+  return (
+    <>
+      <Spinner />
+    </>
+  );
 };
 
 export default Home;
